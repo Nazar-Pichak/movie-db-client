@@ -20,7 +20,8 @@
  * Více informací na https://www.itnetwork.cz/licence
  */
 
-const API_URL = "";
+// URL adresa pro pro produkční prostředí
+const API_URL = "https://nazar2025.pythonanywhere.com";
 
 export class HttpRequestError extends Error {
     constructor(response) {
